@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000')
+var socket = io('https://socketio-chat-server-p26x.onrender.com')
 
 function renderMessage(message) {
   $('.messages').append(
